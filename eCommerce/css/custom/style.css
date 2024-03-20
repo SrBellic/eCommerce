@@ -1,0 +1,51 @@
+ul{
+    list-style: none;
+}
+
+a:link{
+    text-decoration-line: none;
+    color:rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(0, 0, 255);
+}
+
+.navbar_x{
+    /*Clase para alinear elementos en el nav*/
+    display: flex;
+    justify-content: end; 
+    align-items: center;
+}
+.item_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item_center{
+    /*Clase para alinear elementos en el centro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marginSpace-x{
+    /*Clase para crear margenes en el eje X*/
+    margin: 0 5px;
+}
+.marginSpace-y{
+    /*Clase para crear margenes en el eje Y*/
+    margin: 4px;
+}
+.marginSpace-y_10{
+    /*Clase para crear margenes en el eje Y*/
+    margin: 10px;
+}
+.bg_color-Yellow{
+    background-color: #f4f400;
+}
+.bg_color-Black{
+    background-color: #000000;
+}
+.bg_color-Orange{
+    background-color: rgb(247, 180, 56);
+}
